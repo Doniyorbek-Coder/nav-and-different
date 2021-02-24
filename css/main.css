@@ -1,63 +1,90 @@
-* {
-  margin: 0;
-  padding: 0;
+html {
+  box-sizing: border-box;
 }
 
-header {
-  height: 80px;
-  align-items: center;
-  display: flex;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Karla", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  background-color: #fff;
+  color: #837d88;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
+  max-width: 1150px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
-  max-width: 85%;
+  margin-right: auto;
 }
-.navbar {
+
+/* SITENAV */
+
+.site-nav {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.site-nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .navbar-nav {
   display: flex;
-  justify-content: space-between;
-  list-style: none;
   align-items: center;
-}
-.nav-item {
-  margin-left: 20px;
-}
-.nav-link {
-  display: block;
-  text-decoration: none;
-  font-family: "Karla";
-  font-style: normal;
-  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
   font-size: 13px;
-  line-height: 15px;
-  text-align: center;
+  line-height: 15.2px;
+  text-transform: uppercase;
+  font-weight: bold;
   letter-spacing: 1.5px;
+}
+
+.nav-item {
+  margin-left: 25px;
+}
+
+.nav-link {
   color: #837d88;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 .view-plans {
-  width: 143px;
-  height: 37px;
-  border: 1.5px #2c2830 solid;
-  color: #2c2830 !important;
+  margin-left: 35px;
 }
 .nav-link:hover {
   color: #2c2830;
 }
-.view-plans:hover {
-  color: white !important;
+
+.view-plans .nav-link {
+  display: block;
+  padding: 12px 28px;
+  border: 2px solid #2c2830;
+  color: #2c2830;
+}
+
+.view-plans .nav-link:hover {
+  color: white;
   background-color: #2c2830;
 }
+
 /* section */
 .line {
   margin-top: 50px;
