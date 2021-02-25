@@ -2,99 +2,101 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Frontend Mentor | Insure landing page</title>
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    <!-- displays site properly based on user's device -->
+
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="img/favicon-32x32.png"
+      href="./images/favicon-32x32.png"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+
+    <!-- Fonts -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap" rel="stylesheet"> -->
+
+    <title>Frontend Mentor | Insure landing page</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <!-- header -->
+    <!-- SITE-HEADER -->
     <header class="site-header">
-      <nav class="site-nav">
-        <div class="container site-nav-container">
-          <a class="logo" href="#"
-            ><img class="logo-img" src="img/logo.svg" alt=""
-          /></a>
+      <nav class="sitenav">
+        <div class="container sitenav-container">
+          <a class="logo">
+            <img
+              class="logo-img"
+              src="images/logo.svg"
+              alt="Insure logo"
+              width="111"
+              height="18"
+            />
+          </a>
 
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">HOW WE WORK</a>
+          <ul class="sitenav-list">
+            <li class="sitenav-item">
+              <a class="sitenav-link" href="blank.html">How we work</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">BLOG</a>
+            <li class="sitenav-item">
+              <a class="sitenav-link" href="blank.html">Blog</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">ACCOUNT</a>
+            <li class="sitenav-item">
+              <a class="sitenav-link" href="blank.html">Account</a>
             </li>
-            <li class="nav-item view-plans">
-              <a class="nav-link" href="#">VIEW PLANS</a>
+            <li class="sitenav-item sitenav-item-bordered">
+              <a class="sitenav-link" href="blank.html">View plans</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
-    <!-- header end -->
 
-    <!-- section -->
-    <section class="section-one">
-      <div class="container">
-        <div class="line"></div>
-        <h1 class="section-one-h1">We’re different</h1>
-        <div class="row">
-          <div class="col-4">
-            <img
-              src="img/icon-snappy-process.svg"
-              width="86"
-              height="86"
-              alt=""
-            />
-            <h2 class="section-one-h2">Snappy Process</h2>
-            <p class="section-one-p">
-              Our application process can be completed in minutes, not hours.
-              Don’t get stuck filling in tedious forms.
-            </p>
-          </div>
-          <div class="col-4">
-            <img
-              src="img/icon-affordable-prices.svg"
-              width="86"
-              height="86"
-              alt=""
-            />
-            <h2 class="section-one-h2">Affordable Prices</h2>
-            <p class="section-one-p">
-              We don’t want you worrying about high monthly costs. Our prices
-              may be low, but we still offer the best coverage possible.
-            </p>
-          </div>
-          <div class="col-4">
-            <img
-              src="img/icon-people-first.svg"
-              width="86"
-              height="86"
-              alt=""
-            />
-            <h2 class="section-one-h2">People First</h2>
-            <p class="section-one-p">
-              Our plans aren’t full of conditions and clauses to prevent
-              payouts. We make sure you’re covered when you need it.
-            </p>
-          </div>
+    <main class="site-content">
+      <!-- Humanizing your insurance.
+    Get your life insurance coverage easier and faster. We blend our expertise
+    and technology to help you find the plan that’s right for you. Ensure you
+    and your loved ones are protected.
+    View plans -->
+
+      <!-- FEATURES/INDEX-FEATURES -->
+      <section class="index-features">
+        <div class="container">
+          <h2 class="visually-hidden">Service features</h2>
+          <p class="index-features-title">We're different</p>
+          <ul class="index-features-list">
+            <li class="index-feature index-feature-fast">
+              <h3 class="index-feature-title">Snappy Process</h3>
+              <p>
+                Our application process can be completed in minutes, not hours.
+                Don’t get stuck filling in tedious forms.
+              </p>
+            </li>
+            <li class="index-feature index-feature-price">
+              <h3 class="index-feature-title">Affordable Prices</h3>
+              <p>
+                We don’t want you worrying about high monthly costs. Our prices
+                may be low, but we still offer the best coverage possible.
+              </p>
+            </li>
+            <li class="index-feature index-feature-people">
+              <h3 class="index-feature-title">People First</h3>
+              <p>
+                Our plans aren’t full of conditions and clauses to prevent
+                payouts. We make sure you’re covered when you need it.
+              </p>
+            </li>
+          </ul>
         </div>
-      </div>
-    </section>
-    <!-- section end -->
+      </section>
+
+      <!-- Find out more about how we work
+    How we work -->
+    </main>
+
+    Our company How we work Why Insure? View plans Reviews Help me FAQ Terms of
+    use Privacy policy Cookies Contact Sales Support Live chat Others Careers
+    Press Licenses
   </body>
 </html>
